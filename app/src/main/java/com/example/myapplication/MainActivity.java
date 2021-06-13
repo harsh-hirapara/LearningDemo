@@ -8,14 +8,14 @@ import android.widget.Button;
 
 public class MainActivity extends Activity {
 
-    Button button;
+    Button button_harsh;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main); //fo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r viewing design
-        button = findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
+        button_harsh = findViewById(R.id.button_harsh);
+        button_harsh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
